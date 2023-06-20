@@ -1,0 +1,23 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.container1{
+    background-color: #cdcdcd;
+}
+.container2{
+    background-color: aliceblue;
+}
+.container3{
+    background-color: aliceblue;
+}
+.h1{
+    color: lightseagreen;
+}
+.h2{
+    color: lightseagreen;
+}
+
+.spn{
+    background-color: aqua;
+}
