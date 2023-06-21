@@ -1,0 +1,14 @@
+h1{
+    color: green;
+}
+.cls1{
+    color: red;
+    
+
+}
+h1.heading{
+    color: magenta;
+}
+/* #h1id{
+    color: brown;
+} */

@@ -1,0 +1,13 @@
+
+/* inline sytle attribute > id selector > class selector > element selector */
+#container ul.my-songs li{
+    color: brown;
+    background-color: yellow;
+}
+.favorite{
+    color: yellow;
+    background-color: brown;
+
+}
+/* how to calculate specificity */
+/* 0,0,_1,_3 */
