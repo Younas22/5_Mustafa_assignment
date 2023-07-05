@@ -1,0 +1,20 @@
+/* body :not(.mustafa){
+    color: blue;
+    background: #dddd;
+} */
+
+/* div:empty{
+    background-color: green;
+    border: 2px solid yellow;   
+    width: 100px;
+    height: 100px;
+} */
+:root{
+    background: #333;
+    color: #eee;
+}
+
+body{
+    background: green;
+    color: yellow;
+}
