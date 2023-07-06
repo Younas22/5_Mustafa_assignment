@@ -1,0 +1,28 @@
+.mustafa::before{
+    display: block;
+    content: 'hello';
+    color:green;
+    border: 1px dotted black;
+    margin: 10px;
+    padding: 10px;   
+}
+
+.mustafa::after{
+    display: block;
+    content: 'hello';
+    color:green;
+    border: 1px dotted black;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.main- heading::before{
+    content: 'mustafa';
+    display: block;
+    color:green;
+    border: 1px dotted black;
+    margin: 5px;
+    padding: 10px;
+
+}
