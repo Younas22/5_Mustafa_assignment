@@ -1,0 +1,16 @@
+html{
+    /* font-size: 10px; */
+    font-size: 62.5%;
+}
+
+
+.box1{
+    font-size:3rem ;
+}
+
+.text-content{
+    font-size: 3rem;
+    border: 1rem solid green;
+    margin: 0.5rem;
+    padding: 4.5rem;
+}
