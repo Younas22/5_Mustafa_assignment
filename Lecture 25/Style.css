@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.fav-music{
+    border: 10px solid green;
+
+}
+.mozart{
+    width: 25%;
+    background-color: goldenrod;
+    float: left;
+    padding: 20px;
+   
+}
+
+.beet{
+    width: 25%;
+    float: left;
+    background-color: olivedrab;
+    padding: 20px;
+}
+
+.bach{
+    width: 25%;
+    float: left;
+    background-color: lightcyan;
+
+    padding: 20px;
+
+}
+
+.paga{
+    width: 25%;
+    float: left;
+    background-color: lightsalmon;
+    padding: 20px;
+
+    
+}
+.fav-music::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
