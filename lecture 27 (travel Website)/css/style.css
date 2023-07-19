@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ##############HTML Element sytling############## */
 html{
     font-size: 62.5%;
 }
@@ -28,6 +29,14 @@ h1, h2, h3{
     letter-spacing: 0.15em;
     font-weight: 500;
 }
+
+/* #########################Utililty classes#################### */
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0  auto;
+}
 .lg-heading{
     font-size: 3.5rem;
 }
@@ -49,11 +58,25 @@ h1, h2, h3{
     color: #555;
 }
 
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+}
+.btn-primary{
+    background-color: #ffff;
+    border-radius: 10em;
+
+}
 
 
 
+/* #########################Header styling##################### */
 
 .header {
+    position: relative;
     height: 95vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/header-image.jpg');
     background-position: center;
@@ -62,7 +85,6 @@ h1, h2, h3{
 }
 
 .navbar{
-    border: 2px solid white;
     padding: 1rem;
 }
 
@@ -86,8 +108,29 @@ h1, h2, h3{
 .navbar a:visited{
     color: #f4f4f4;
 }
+.navbar a:hover{
+    border-bottom: 1px solid white;
+}
 .navbar::after{
     content:'';
     display: block;
     clear: both;
+}
+/* ##############Header content styling############ */
+.header-content{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: linear-gradient(rgba (0,0,0.2),rgba(0,0,0,.2));
+}
+
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-content p{
+    text-transform: uppercase;   
 }
