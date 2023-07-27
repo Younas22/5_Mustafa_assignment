@@ -58,6 +58,9 @@ h1, h2, h3{
     color: #555;
 }
 
+.bg-dark{
+    background-color: #263238;
+}
 .btn{
     display: inline-block;
     padding: 0.5em 1.5em;
@@ -105,12 +108,11 @@ h1, h2, h3{
     font-size: 3.5rem;
 }
 
-.header .navbar .nav-items{
+.navbar .nav-items{
     float: right;
     margin-top: 1rem;
 }
-
-.header .navbar .nav-item{
+.navbar .nav-item{
     display: inline-block;
     padding: 1rem;
     text-transform: uppercase;
@@ -228,4 +230,43 @@ h1, h2, h3{
 }
 .social-media-links i{
     margin: 2rem;
+}
+
+/* #################ABOUT PAGE STYLING######################### */
+.about{
+    padding: 5rem 0;
+}
+
+.about-heading::after{
+    content: '';
+    display: block;
+    border: 3px solid #e63946;
+    width: 100%;
+}
+
+/* ################ABOUT WRAPPER######################### */
+.about-wrapper{
+    text-align: center;
+    margin-top: 2rem;
+}
+.about-wrapper .left{
+    float: left;
+    width: 50%;
+}
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+
+.about-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.about-wrapper li::before{
+    content:'\2713';
+    color: #e63946;
+    font-weight: bold;
+    padding-right: 1rem;
 }
