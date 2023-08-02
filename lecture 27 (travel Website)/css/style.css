@@ -277,11 +277,13 @@ h1, h2, h3{
     margin-top: 3rem;
 
 }
+
 .counts-items{
     width: 25%;
     float: left;
     text-align: center;
 }
+
 .counts::afer{
     content: '';
     display: block;
@@ -292,11 +294,12 @@ h1, h2, h3{
     font-weight: 700;
     color: #e63946;
 }
+
 .counts-items p {
     font-weight: 700;
     color: #555;
     font-size: 1.8rem;
- 
+
 }
 /* #############Banner styling################### */
 .cta-banner{
@@ -309,12 +312,14 @@ h1, h2, h3{
 .cta-banner-left{    
     width: 60%;
     float: left;
+
 }
 .cta-banner-right{  
     width: 40%; 
     float: right; 
 
 }
+
 .btn-cta{
     text-align: center;
     display: inline-block;
@@ -326,6 +331,7 @@ h1, h2, h3{
     letter-spacing: 0.5rem;
     color: #F4F4F4;
 }
+
 .cta-line{
     font-weight: 700;
     font-size: 2rem;
@@ -337,4 +343,27 @@ h1, h2, h3{
     content: '';
     display:block;
     clear: both;
+}
+
+/* #####################Contact page styling################# */
+.contact-form{
+    padding: 5em 0;
+}
+.form-wrapper{
+    border: 10px solid red;
+}
+.form-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.company-address{
+    border: 2px dotted green;
+    width: 49%;
+    float: left;
+}
+.form{
+    border: 4px solid black;
+    width: 49%;
+    float: right;
 }
